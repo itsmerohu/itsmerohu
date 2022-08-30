@@ -7,3 +7,4 @@ I'm a Machine Learning student in Annamalai university.
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsmerohu&show_icons=true&theme=cobalt)
 
 ![Rohith's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=itsmerohu&theme=rogue)
+
