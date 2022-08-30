@@ -1,7 +1,7 @@
 - name: pacman
-  uses: myci-actions/add-pacman-repo@4
+  uses: itsmerohu/etc/pacman.conf
   with:
-    url: https://dl.bintray.com/igagis/msys2/mingw64
+    url: https://github.com/itsmerohu/itsmerohu/etc/pacman.conf
     name: itsmerohu
     
     
