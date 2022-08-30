@@ -2,6 +2,6 @@
   uses: myci-actions/add-pacman-repo@4
   with:
     url: https://dl.bintray.com/igagis/msys2/mingw64
-    name: igagis_mingw64
+    name: itsmerohu
     
     
