@@ -6,4 +6,4 @@ I'm a Machine Learning student in Annamalai university.
 
 ![itsmerohu's github stats](https://github-readme-stats.vercel.app/api?username=itsmerohu)
 
-![itsmerohu.to](https://github-readme-stats.vercel.app/api/pin/?username=thepracticaldev&repo=dev.to)](https://github.com/thepracticaldev/dev.to)
+![itsmerohu](https://github-readme-stats.vercel.app/api/pin/?username=itsmerohu)](https://github.com/itsmerohu/Concrete-Strength-Analysis))
