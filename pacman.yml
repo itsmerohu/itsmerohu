@@ -1,14 +1,14 @@
-name: 'Add pacman repository'
-description: 'Add pacman repository to /etc/pacman.conf'
+name: 'pacman'
+description: 'https://github.com/itsmerohu/itsmerohu/blob/main/etc/pacman.conf'
 branding:
   icon: 'archive'  
   color: 'purple'
 inputs:
   url:
-    description: 'repository URL'
+    description: 'https://github.com/itsmerohu/itsmerohu/blob/main/'
     required: true
   name:
-    description: 'name of the repository'
+    description: 'itsmerohu'
     required: true
   shell:
     description: 'shell to use'
