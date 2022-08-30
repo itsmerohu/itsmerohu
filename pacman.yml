@@ -5,3 +5,49 @@
     name: itsmerohu
     
     
+- name: 'itsmerohu'
+description: 'https://github.com/itsmerohu/itsmerohu/etc/pacman.conf'
+branding:
+  icon: 'archive'  
+  color: 'purple'
+inputs:
+  url:
+    description: 'https://github.com/itsmerohu/itsmerohu'
+    required: true
+  name:
+    description: 'itsmerohu'
+    required: true
+  
+runs:
+  using: "composite"
+  steps:
+    - name: import key
+      run: |
+        if [ ! -z "${{ inputs.key-server }}" ]; then
+          if [ ! -z "${{ inputs.keys }}" ]; then
+            echo "receiving keys from key server"
+            pacman-key --keyserver ${{ inputs.key-server }} --recv-keys ${{ inputs.keys }}
+          else
+            echo "downloading key from direct URL"
+            curl --silent --show-error ${{ inputs.key-server }} | pacman-key --add -
+          fi
+        else
+          echo "no key-server specified, skip importing keys"
+        fi
+      shell: msys2 {0}
+    - name: add pacman repo
+      run: |
+        echo -e "[${{ inputs.name }}]" >> /etc/pacman.conf
+        echo "SigLevel = Optional TrustAll" >> /etc/pacman.conf
+        echo "Server = ${{ inputs.url }}" >> /etc/pacman.conf
+        pacman --noconfirm --refresh --sync
+      shell: msys2 {0}
+    - name: install packages
+      run: |
+        if [ ! -z "${{ inputs.install }}" ] ; then
+          pacman --noconfirm --sync ${{ inputs.install }}
+        else
+          echo "installing packages is not requested"
+        fi
+      shell: msys2 {0}
+    
