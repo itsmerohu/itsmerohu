@@ -1,0 +1,9 @@
+- name: <name>
+  uses: myci-actions/add-pacman-repo@<version>
+  with:
+    url: <repo-url>
+    name: <repo-name>
+    shell: <shell>
+    keys: <keys>
+    key-server: <key-server>
+    install: <packages-to-install>
