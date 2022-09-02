@@ -8,4 +8,3 @@ I'm a Machine Learning student in Annamalai university.
 
 ![Rohith's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=itsmerohu&theme=rogue)
 
-![pacman]('https://github.com/itsmerohu/itsmerohu/etc/pacman.conf')
