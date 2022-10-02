@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 I'm a Machine Learning student in Annamalai university.
-<div align="center">
+<div>
 
 ![itsmerohu's github stats](https://github-readme-stats.vercel.app/api?username=itsmerohu&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
