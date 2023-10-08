@@ -12,11 +12,9 @@ To see all the other badges are [here](https://www.credly.com/users/rohith-p.eaa
 
 <!--START_SECTION:badges-->
 [![IBM Machine Learning Specialist - Associate](https://images.credly.com/size/100x100/images/77dcb042-b420-42f3-9d9d-bb1e0d9dcf60/image.png)](https://www.credly.com/badges/b4ade293-be19-49e6-a4cc-b9a08c2fe4ff)
-
-
+[![Machine Learning with Python](https://images.credly.com/size/100x100/images/5ae9bf9e-da6e-4cec-82eb-d2b4cfea9751/Machine_Learning_with_Python.png)](https://www.credly.com/badges/93ffb6be-23ad-4ca3-be2a-431223d13509)
+[![Deep Neural Networks with PyTorch](https://images.credly.com/size/100x100/images/6be9e507-9096-4e18-aef8-e60893ed36c6/IBM_AI_-Deep_Neural_Networks_with_PyTorch.png)](https://www.credly.com/badges/ee444137-3880-4e17-8ed2-5c885d1d2aec)
 <!--END_SECTION:badges-->
-
-<h2> Stuff I worked on last week  <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="40"> </h2>
 
 
 
